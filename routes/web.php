@@ -21,6 +21,10 @@ Route::get('/create-trainer', function () {
     return view('add-trainer');
 });
 
+Route::get('/create-membership', function () {
+    return view('add-membership');
+});
+
 Route::get('/', [App\Http\Controllers\MemberController::class, 'index'])->name('index');
 Route::post('/store', [App\Http\Controllers\MemberController::class, 'store']);
 Route::get('/edit/{id}', [App\Http\Controllers\MemberController::class, 'edit'])->name('edit');
