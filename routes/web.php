@@ -32,3 +32,9 @@ Route::post('/store_trainer', [App\Http\Controllers\TrainerController::class, 's
 Route::get('/edit_trainer/{id}', [App\Http\Controllers\TrainerController::class, 'edit_trainer'])->name('edit_trainer');
 Route::post('/update_trainer', [App\Http\Controllers\TrainerController::class, 'update_trainer'])->name('update_trainer');
 Route::get('/delete_trainer/{id}', [App\Http\Controllers\TrainerController::class, 'delete_trainer'])->name('delete_trainer');
+
+Route::get('/memberships', [App\Http\Controllers\MembershipController::class, 'memberships'])->name('memberships');
+Route::post('/store_membership', [App\Http\Controllers\MembershipController::class, 'store_membership']);
+Route::get('/edit_membership/{id}', [App\Http\Controllers\MembershipController::class, 'edit_membership'])->name('edit_membership');
+Route::post('/update_membership', [App\Http\Controllers\MembershipController::class, 'update_membership'])->name('update_membership');
+Route::get('/delete_membership/{id}', [App\Http\Controllers\MembershipController::class, 'delete_membership'])->name('delete_membership');

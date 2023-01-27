@@ -20,8 +20,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" aria-current="page" href="{{ route('index') }}">Members</a>
-                    <a class="nav-link active" href="{{ route('trainers') }}">Trainers</a>
-                    <a class="nav-link" href="{{ route('memberships') }}">Memberships</a>
+                    <a class="nav-link" href="{{ route('trainers') }}">Trainers</a>
+                    <a class="nav-link active" href="{{ route('memberships') }}">Memberships</a>
                 </div>
             </div>
         </div>
