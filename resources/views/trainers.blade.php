@@ -21,7 +21,7 @@
                 <div class="navbar-nav">
                     <a class="nav-link" aria-current="page" href="{{ route('index') }}">Members</a>
                     <a class="nav-link active" href="{{ route('trainers') }}">Trainers</a>
-                    <a class="nav-link" href="#">Membership</a>
+                    <a class="nav-link" href="{{ route('memberships') }}">Membership</a>
                 </div>
             </div>
         </div>
