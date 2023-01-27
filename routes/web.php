@@ -26,7 +26,6 @@ Route::post('/store', [App\Http\Controllers\MemberController::class, 'store']);
 Route::get('/edit/{id}', [App\Http\Controllers\MemberController::class, 'edit'])->name('edit');
 Route::post('/update', [App\Http\Controllers\MemberController::class, 'update'])->name('update');
 Route::get('/delete/{id}', [App\Http\Controllers\MemberController::class, 'delete'])->name('delete');
-Route::get('/view_trainer/{id}', [App\Http\Controllers\MemberController::class, 'view_trainer'])->name('view_trainer');
 
 Route::get('/trainers', [App\Http\Controllers\TrainerController::class, 'trainers'])->name('trainers');
 Route::post('/store_trainer', [App\Http\Controllers\TrainerController::class, 'store_trainer']);

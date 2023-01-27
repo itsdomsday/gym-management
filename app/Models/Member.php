@@ -15,7 +15,8 @@ class Member extends Model
         'name',
         'email',
         'membership_expiration',
-        'trainer_id'
+        'trainer_id',
+        'membership_id'
     ];
 
     public function trainer()
